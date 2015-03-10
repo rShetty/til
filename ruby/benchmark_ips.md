@@ -1,4 +1,4 @@
-### Benchmark IPS
+## Benchmark IPS
 
 Benchmark IPS is a gem to benchmark your code snippets.
 You can benchmark and compare two or more snippets of Ruby code.
@@ -26,17 +26,17 @@ It provides Iterations per second.
     end
 ```
 
-## Output
+### Output
 
 ```
-            report_1     1.000  i/100ms
-            report_2     1.000  i/100ms
-            -------------------------------------------------
-            report_1      1.029  (± 0.0%) i/s -      6.000  in   5.835516s
-            report_2     16.458  (± 6.1%) i/s -     82.000
+        report_1     1.000  i/100ms
+        report_2     1.000  i/100ms
+        -------------------------------------------------
+        report_1      1.029  (± 0.0%) i/s -      6.000  in   5.835516s
+        report_2     16.458  (± 6.1%) i/s -     82.000
 
-            Comparison:
+        Comparison:
 
-            report_2:       16.5 i/s
-            report_1:        1.0 i/s - 16.00x slower
+        report_2:       16.5 i/s
+        report_1:        1.0 i/s - 16.00x slower
 ```
