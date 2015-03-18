@@ -9,6 +9,8 @@ This causes a lot of errors like.
   inject_array.inject({}) do |accumulator, value|
     accumulator[value] = value.downcase
   end
+  
+  Output: 'IndexError: string not matched'
 ```
 
 The above code causes 'IndexError: string not matched' error.
